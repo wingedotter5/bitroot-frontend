@@ -1,0 +1,38 @@
+.article {
+  color: slategray;
+}
+
+.title {
+  color: #333;
+}
+
+.thumbnail {
+  height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.avatar {
+  width: 60px;
+  height: 100%;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 640px) {
+  .thumbnail {
+    height: 250px;
+  }
+}
